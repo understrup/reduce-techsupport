@@ -1,10 +1,10 @@
 The output from the command 'show tech-support' consist of 400-450 show like the exsamples below:
 
-`show switchname`
-`show system uptime`
-`show interface mgmt0`
-`show system resources`
-`show version `
+	`show switchname`
+	`show system uptime`
+	`show interface mgmt0`
+	`show system resources`
+	`show version `
 
 resulting in a file with 520.000 to 600.000 lines depending on the platform.
 
@@ -13,13 +13,17 @@ resulting in a file with 520.000 to 600.000 lines depending on the platform.
  Filter = "system uptime;show version" will give output:
  
  `show switchname` 
+ 
  `show system uptime`
 	System start time:          Sun Apr  3 13:50:24 2016
 	System uptime:              536 days, 17 hours, 47 minutes, 50 seconds
 	Kernel uptime:              536 days, 18 hours, 13 minutes, 2 seconds
 	Active supervisor uptime:   536 days, 17 hours, 47 minutes, 50 seconds
+	
  `show interface mgmt0`
+ 
  `show system resources`
+ 
  `show version `
 
     Cisco Nexus Operating System (NX-OS) Software
